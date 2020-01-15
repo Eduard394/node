@@ -24,4 +24,8 @@ app.get('/', (req,res) => {
 	res.render('product')
 })
 
+app.get('/na', (req,res) => {
+	res.render('usuario')
+})
+
 module.exports = app;
